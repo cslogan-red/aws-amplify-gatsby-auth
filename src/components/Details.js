@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { getCurrentUser } from '../utils/auth'
 
+// cool comment
 const Home = () => {
   const user = getCurrentUser()
   console.log('user:', user)
